@@ -1,4 +1,4 @@
-#**:fire: SIMPLE CRUD API :fire:**#
+**:fire: SIMPLE CRUD API :fire:**
 
 **Overview**
 This Simple Api Enables Creat Read Update Delete fucntionality to be used with MongoDB database.
@@ -11,11 +11,11 @@ To start working, clone files into a desired folder, cd into it or open it with 
 
 ` npm i --production `
 
-This will install all required dependencies
+*This will install all required dependencies*
 
-Then, rename the .env_sample to .env and put in the link to your database cluster and the desired PORT number.
+Then, rename the `.env_sample to .env` and put in the link to your database cluster and the desired PORT number.
 
-After that you can start the app by running:
+*After that you can start the app by running:*
 
 ` npm start `
 
