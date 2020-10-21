@@ -7,7 +7,7 @@ This Simple Api Enables Creat Read Update Delete fucntionality to be used with M
 You can create, read, update and delete json data in and from the MongoDB cluster, which you can create at https://www.mongodb.com/ by using software like Postman. GET requsts can be done in the browser.
 
 **Running the API locally**
-To start working, clone files into a desired folder, cd into it or open it with gitbash and run:
+To start working, clone files into a desired folder, cd into root/backend and run:
 
 ` npm i --production `
 
@@ -29,9 +29,10 @@ You can use a process manager, such as pm2:
 This will start the API without the need to keep the console open
 
 **Dependencies**
-* cors
-* dotenv
-* express
-* helmet
-* mongoose
-* morgan
+* Cors
+* Dotenv
+* Express
+* Helmet
+* Mongoose
+* Morgan
+* Body-parser

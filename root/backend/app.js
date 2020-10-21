@@ -4,6 +4,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const mongoose = require('mongoose');
 const userData = require("./models/userDataModel");
+const bodyparser = require('body-parser');
 
 //INTITIALISATION
 const app = express();
@@ -15,6 +16,7 @@ const PORT = process.env.PORT;
 app.use(morgan("common"));
 app.use(helmet());
 app.use(cors());
+app.use(bodyparser.json());
 //-------------------ROUTES--------------------------
 app.get("/", async (req, res) => {
     try{
