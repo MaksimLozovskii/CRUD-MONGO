@@ -27,12 +27,3 @@ You can use a process manager, such as pm2:
 ` pm2 start app.js`
 
 This will start the API without the need to keep the console open
-
-**Dependencies**
-* Cors
-* Dotenv
-* Express
-* Helmet
-* Mongoose
-* Morgan
-* Body-parser
