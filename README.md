@@ -1,12 +1,12 @@
 **:fire: SIMPLE CRUD API :fire:**
 
 **Overview**
-This Simple Api Enables Creat Read Update Delete fucntionality to be used with MongoDB database.
+This Simple Api Enables Create Read Update Delete functionality to be used with MongoDB database.
 
 **Features**
-You can create, read, update and delete json data in and from the MongoDB cluster, which you can create at https://www.mongodb.com/ by using software like Postman. GET requsts can be done in the browser.
+You can create, read, update and delete json data in and from the MongoDB cluster, which you can create at https://www.mongodb.com/ by using software like Postman.
 
-**Running the API locally**
+**Running the Server locally**
 To start working, clone files into a desired folder, cd into root/backend and run:
 
 ` npm i --production `
@@ -19,11 +19,10 @@ Then, rename the `.env_sample to .env` and put in the link to your database clus
 
 ` npm start `
 
-**Running The API using PM2**
+**Running The Server using PM2**
 You can use a process manager, such as pm2:
 
 ` npm i -g pm2 `
 
 ` pm2 start app.js`
 
-This will start the API without the need to keep the console open
