@@ -20,7 +20,6 @@ Then, rename the `.env_sample to .env` and put in the link to your database clus
 ` npm start `
 
 **Running The Server using PM2**
-You can use a process manager, such as pm2:
 
 ` npm i -g pm2 `
 
